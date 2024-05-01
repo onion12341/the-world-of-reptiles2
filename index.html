@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!--шапка сайта-->
+<title>Мир рептилий</title> 
+<meta charset="utf-8">
+<!--поддержка всех языков --> 
+<meta name="viewport" content="width=device-width, initial scale=1">
+<!--поддежрка всех устройств --> 
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+    
+    <link rel="stylesheet" href="main.css">
+    <!--подключенный css-->
+    <link rel="stylesheet" href="color.css">  
+<!--шрифт-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+<!--jоснова сайта-->
+    <!--слайдер-->
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay:true">
+
+    <div class="uk-text-center uk-slider-items uk-child-width-1-1@s uk-child-width-1-1@m uk-child-width-1-1@l">
+        <div>
+            <img src="images/4.jpeg" width="1920" height="1080" alt="">
+            <div class="uk-position-center uk-panel slider-dark"><h1>Виды</h1> <p >отряд Чешуйчатые</p> <a class="uk-button-primary" href="#">Перейти</a></div>
+           
+        </div>
+        <div>
+            <img src="images/2.jpg" width="1920" height="1080" alt="">
+            <div class="uk-position-center uk-panel slider-dark"><h1>Виды</h1> <p >ящерицы и змеи</p><a class="uk-button-primary" href="#">Перейти</a></div>
+        </div>
+        <div>
+            <img src="images/3.jpg" width="1920" height="1080" alt="">
+            <div class="uk-position-center uk-panel slider-dark"><h1>Виды</h1> <p >отряд Черепахи</p><a class="uk-button-primary" href="#">Перейти</a></div>
+        </div>
+        <div>
+            <img src="images/slider1.jpg" width="1920" height="1080" alt="">
+            <div class="uk-position-center uk-panel slider-dark"><h1>Виды</h1> <p >отряд Крокодилы</p><a class="uk-button-primary" href="#">Перейти</a></div>
+        </div>
+        <div>
+            <img src="images/5.jpg" width="1920" height="1080" alt="">
+            <div class="uk-position-center uk-panel slider-dark"><h1>Виды</h1> <p >отряд Клювоголовые</p><a class="uk-button-primary" href="#">Перейти</a></div>
+        </div>
+        
+    </div>
+
+    <a class="uk-position-center-left uk-position-small arrow-slider" href uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small arrow-slider" href uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+   
+    
+        
+        
+        
+        <!--menu-->
+            <div class="uk-section menu-dark">
+                <div class="uk-conteiner">
+                <!--menu pc-->
+            <nav class="uk-navbar-conteiner menu-container" uk-navbar>
+            <div class="uk-navbar-left">
+               <div class="logo2 uk-visible@m">
+                    <img src="images/icon1.png" width="80" height="80" alt="">
+                </div>
+                <ul class="uk-navbar-nav uk-visible@m">
+                <li><a href="#">Слайдер</a></li>
+                <li><a href="#card">Карточка</a></li>
+                <li><a href="#footer">Контакты</a></li>
+                <li><a href="#img">Изображения</a></li>
+                <li><a href="#acc">Доп.инфо</a></li>
+                </ul>
+
+                </div>
+                </nav>
+                <!--menu pc-->
+                <!--menu mob-->
+                <div class="uk-hidden@m gamburger">
+                <div class="logo">
+                    <img src="images/icon1.png" width="50" height="50" alt="">
+                </div> 
+                <div class="mobmenu">
+                    <a href="#offcanvas-usage" uk-toggle><span uk-icon="icon: menu; ratio:1.5"></span></a>
+                </div>
+                </div>
+                <!--menu mob-->
+                </div>
+            </div>
+    
+
+    
+
+    
+    
+    
+    <div class="uk-section color-abooba">
+    <div class="uk-container" id="card">
+    <h2 class="uk-text-center color-abb">Карточки</h2>
+     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+     <div>
+        <div class="uk-card uk-card-secondary ">
+            <div class="uk-card-media-top">
+            <img src="images/черепаха.jpg" width="1920" height="720" alt="">
+            </div>
+            <div class="uk-card-body custom-body">
+            <h3 class="uk-card-title">Черепахи</h3>
+            <p class="uk-section color-red">Рептилии, ведущие дневной образ жизни, видят мир в желто-оранжевом спектре.</p></div>
+            <div class="uk-card-footer uk-text-center"><!--подвал-->
+                <a href="#modal-1"class="uk-button uk-button-primary" uk-tooltip="Узнать" uk-toggle>Открыть</a>
+            </div>
+        </div>
+    </div>
+     <div>
+        <div class="uk-card uk-card-secondary ">
+            <div class="uk-card-media-top">
+            <img src="images/ящерицы.jpg" width="1920" height="720" alt="">
+            </div>
+            <div class="uk-card-body custom-body">
+            <h3 class="uk-card-title">Ящерицы</h3>
+            <p class="uk-section color-red">Глаза некоторых змей и ящериц закрыты сплошной прозрачной мембраной, заменяющей им веки.</p></div>
+            <div class="uk-card-footer uk-text-center"><!--подвал-->
+                <a href="#modal-2"class="uk-button uk-button-primary" uk-tooltip="Узнать" uk-toggle>Открыть</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-secondary ">
+            <div class="uk-card-media-top">
+            <img src="images/крокодилы.jpg" width="1920" height="720" alt="">
+            </div>
+            <div class="uk-card-body custom-body">
+            <h3 class="uk-card-title">Крокодилы</h3>
+            <p class="uk-section color-red">В Австралии еще 40 тысяч лет назад жили сухопутные крокодилы, которые вообще не заходили в воду.</p></div>
+            <div class="uk-card-footer uk-text-center"><!--подвал-->
+                <a href="#modal-3"class="uk-button uk-button-primary" uk-tooltip="Узнать" uk-toggle>Открыть</a>
+            </div>
+        </div>
+    </div>
+</div>   
+ 
+    </div>
+</div>  
+    <!--акардион-->
+    
+    <div class="uk-section color-white" id="acc">
+    <div class="uk-container">
+    <ul uk-accordion>
+    <li>
+        <a class="uk-accordion-title" href>Коллекция ссылок</a>
+        <div class="uk-accordion-content">
+            <h4>Ссылки о сайтах про рептилий</h4>
+            
+            <div>
+            <ul>
+            <li><a href="https://bigenc.ru/c/presmykaiushchiesia-fc712a?ysclid=lv5kjkeo6e978697881" target="_blank">Сайт №1</a></li>
+             <li><a href="https://www.yaklass.ru/p/biologia/7-klass/znakomimsia-s-khordovymi-15494/reptilii-presmykaiushchiesia-15479/re-a4245ff8-7bd2-441c-bcbf-e9e419e8603e?ysclid=lv5kixb7ul393858904" target="_blank">Сайт №2</a></li>
+            <li><a href="https://www.soloby.ru/1353158/%D0%BF%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0-%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8-%D1%80%D0%B5%D0%BF%D1%82%D0%B8%D0%BB%D0%B8%D1%8F%D0%BC%D0%B8-%D0%BC%D0%BB%D0%B5%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D1%8E%D1%89%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8?ysclid=lv5kk2goih763298454" target="_blank">Сайт №3</a></li>
+            </ul>
+            </div>
+        </div>
+    </li>
+    <li class="uk-open">
+        <a class="uk-accordion-title" href>Коллекциия видео</a>
+        <div class="uk-accordion-content">
+            <h4>Ссылки на видео</h4>
+            <div class="uk-child-width-1-1@s uk-child-width-1-4@m uk-text-center"><iframe width="380" height="190" src="https://www.youtube.com/embed/z3fsoejR2SE?si=Qte7n4_z36HZvmjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+
+            
+            <iframe width="380" height="190" src="https://www.youtube.com/embed/MlmctX-rJeQ?si=zQEYFYTkHV3GbFYH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href>Коллекциия фото</a>
+        <div class="uk-accordion-content">
+            <h4>Ссылки на фото</h4>
+            <div class="uk-section color-aboba uk-text-center"><a href="https://ru.freepik.com/photos/%D1%80%D0%B5%D0%BF%D1%82%D0%B8%D0%BB%D0%B8%D0%B8" target="_blank">Перейти</a></div>
+            
+            
+        </div>
+    </li>
+</ul>
+    </div>
+   </div>      
+  <!--видимость моб.тел-->
+    <!--SLIDER2-->
+    <div class="uk-section color-abooba">
+    <div class="uk-container" id="card">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
+<h2 class="uk-text-center" id="img">Коллекция снимков</h2>
+    <div class="uk-slider-items uk-grid">
+        <div class="uk-width-3-4">
+            <div class="uk-panel">
+                <img src="images/zhivotnye-yaschericy--iguany--varany-yas-1106184.jpg" width="1800" height="1200" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove"><div uk-lightbox><a class="uk-button uk-button-default" href="images/zhivotnye-yaschericy--iguany--varany-yas-1106184.jpg" data-caption="Рептилии крупным планом">1</a></div></h3>
+                    <p class="uk-margin-remove"></p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-3-4">
+            <div class="uk-panel">
+                <img src="images/zhivotnye-yaschericy-iguany-varany-yazyk-657092.jpg" width="1800" height="1200" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove"><div uk-lightbox><a class="uk-button uk-button-default" href="images/zhivotnye-yaschericy-iguany-varany-yazyk-657092.jpg" data-caption="Рептилии крупным планом">2</a></div></h3>
+                    <p class="uk-margin-remove"></p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-3-4">
+            <div class="uk-panel">
+                <img src="images/iguana_vetka_listia_56432_1920x1080.jpg" width="1800" height="1200" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove"><div uk-lightbox><a class="uk-button uk-button-default" href="images/iguana_vetka_listia_56432_1920x1080.jpg" data-caption="Рептилии крупным планом">3</a></div></h3>
+                    <p class="uk-margin-remove"></p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-3-4">
+            <div class="uk-panel">
+                <img src="images/coccodrillo.jpg" width="1800" height="1200" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove"><div uk-lightbox><a class="uk-button uk-button-default" href="images/coccodrillo.jpg" data-caption="Рептилии крупным планом">4</a></div></h3>
+                    <p class="uk-margin-remove"></p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-3-4">
+            <div class="uk-panel">
+                <img src="images/photo_383131.png" width="1800" height="1200" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove"><div uk-lightbox><a class="uk-button uk-button-default" href="images/photo_383131.png" data-caption="Рептилии крупным планом">5</a></div></h3>
+                    <p class="uk-margin-remove"></p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+</div>
+    </div>
+    <div class="uk-section color-white">
+    <div class="uk-container">
+    <h2 class="uk-text-center color-abb">Факты о рептилиях</h2>   
+        <div class="white-block uk-visible@m"><b>Интересный факт-На Земле обитает около 9400 видов рептилий, из которых на территории России представлены только 77.</b></div> 
+        <div class="white-block uk-hidden@m"><b>Интересный факт-Рептилии имеют больше общего с птицами, чем любые другие животные.</b></div> 
+    </div>
+    </div>
+
+
+    
+    
+<footer>
+<!--подвал сайта-->
+ <div class="uk-section uk-section-secondary">
+    <div class="uk-container" id="footer">
+ <!--блоки подвала-->  
+<div class="uk-child-width-1-1@s uk-child-width-1-4@m" uk-height-match=".uk-card" uk-grid>
+<!--child 1-->
+<div>
+<div class="uk-card footer-card">
+ <h3 class="uk-text-center">Контакты</h3>
+<p class="uk-text-center">
+<span uk-icon="icon: phone"></span> <a href="tel:+79056390000">+7-905-639-23-63</a>
+    <br>
+    <span uk-icon="icon:  mail"></span> <a href="mailto:mr.goryac@bk.ru">mr.goryac@bk.ru</a>
+</p>
+    
+</div>
+</div>
+<!--child 2-->
+<div>
+<div class="uk-card footer-card">
+    
+ <h3 class="uk-text-center">Связь</h3>
+<p class="uk-text-center">
+
+<span uk-icon="icon:"></span> <a uk-tooltip="Открыть Telegram" href="https://t.me/KostyaG18" target="_blank"><img src="images/telegram.svg"></a>
+
+<span uk-icon="icon:"></span> <a uk-tooltip="Открыть What's App" href="https://www.youtube.com/watch?v=LXb3EKWsInQ&t=1s" target="_blank"><img src="images/youtube.png"></a>
+
+</p>
+    
+</div>
+</div>
+<!--child 3-->
+<div>
+<div class="uk-card footer-card">
+ <h3 class="uk-text-center">Информация</h3>
+<p class="uk-text-center">
+<span uk-icon="info"></span>
+Данный сайт создан
+<br> в познавательных целях
+    
+</p>
+    
+</div>
+</div>
+ <!--child 4-->   
+<div>
+<div class="uk-card footer-card">
+ <h3 class="uk-text-center">О сайте</h3>
+<p class="uk-text-center">
+<a href="https://htmlteacher-topacademy76.ru/?ysclid=lv2o5811pp455952314" target="_blank">
+<img width="56" height="56" src="images/logo.svg"></a>
+</p>
+    
+</div>
+</div>
+        
+        
+    
+</div>
+    
+    </div>
+</div>  
+
+    
+</footer>
+<a class="to-top" uk-tooltip="Перемотать вверх" href="#" uk-totop uk-scroll></a>
+<!--.modal1-->
+ <div id="modal-1" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body ">
+        <div class="uk-modal-header">
+        <h2 class="uk-modal-title">Заголовок</h2>
+        </div>
+        <div class="uk-modal-body">
+        <p>Черепа́хи (Chelonia или Testudines), отряд пресмыкающихся. Известны с позднего триаса (220–210 млн лет назад). Два подотряда: скрытошейные (Cryptodira) и бокошейные (Pleurodira), 12 семейств и около 361 вида.</p>
+        </div>
+        <div class="uk-model-footer">
+        <p class="uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Закрыть</button>
+        </p>
+        </div>
+    </div>
+</div>        
+<!--/modal1--> 
+<!--.modal2-->
+ <div id="modal-2" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body ">
+        <h2 class="uk-modal-title">Заголовок</h2>
+        <p>Я́щерицы (Lacertilia), отряд чешуйчатых пресмыкающихся. Известны со среднего триаса. Наиболее многочисленная, разнообразная и широко распространённая группа среди современных рептилий.</p>
+        <p class="uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Закрыть</button>
+        </p>
+    </div>
+</div>        
+<!--/modal2--> 
+<!--.modal3-->
+ <div id="modal-3" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body ">
+        <h2 class="uk-modal-title">Заголовок</h2>
+        <p>Крокоди́лы (Crocodylia), отряд хищных пресмыкающихся подкласса архозавров. Произошли от псевдозухий в среднем триасе (около 230 млн лет назад). Крупные особи достигают длины 6–7 м.</p>
+        <p class="uk-text-right">
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Закрыть</button>
+        </p>
+    </div>
+</div>        
+<!--/modal3-->    
+<!--mob.menu-->
+
+
+<div id="offcanvas-usage" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+   <h3>Меню</h3>
+    <ul>
+    <li><a href="#">Слайдер</a></li>
+    <li><a href="#card">Карточка</a></li>
+    <li><a href="#footer">Контакты</a></li> 
+    <li><a href="#img">Изображения</a></li>
+    <li><a href="#acc">Доп.инфо</a></li>
+    </ul>
+<div class="uk-text-center">
+<span uk-icon="icon:"></span> <a uk-tooltip="Открыть Telegram" href="https://t.me/zxlqr" target="_blank"><img src="images/telegram.svg"></a>
+
+<span uk-icon="icon:"></span> <a uk-tooltip="Открыть What's App" href="https://www.youtube.com/watch?v=LXb3EKWsInQ&t=1s" target="_blank"><img src="images/youtube.svg"></a>
+</div>
+
+    </div>
+</div>  
+    
+</body> 
+</html>
